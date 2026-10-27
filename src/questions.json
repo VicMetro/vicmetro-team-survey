@@ -25,21 +25,9 @@
      ]
     },
     {
-     "id": "b_priorities",
+     "id": "b_priorities_decisions",
      "type": "scale",
-     "text": "Our priorities are clear week to week",
-     "options": [
-      "Strongly disagree",
-      "Disagree",
-      "Neutral",
-      "Agree",
-      "Strongly agree"
-     ]
-    },
-    {
-     "id": "b_decisions",
-     "type": "scale",
-     "text": "Decisions in the business are made clearly and quickly",
+     "text": "Our priorities and decisions are clear, week to week",
      "options": [
       "Strongly disagree",
       "Disagree",
@@ -65,11 +53,11 @@
      "type": "scale",
      "text": "Workload in the business feels:",
      "options": [
-      "Very sustainable",
-      "Mostly sustainable",
-      "Manageable short term, risky long term",
+      "Completely reactive",
       "Unsustainable",
-      "Completely reactive"
+      "Manageable short term, risky long term",
+      "Mostly sustainable",
+      "Very sustainable"
      ]
     },
     {
@@ -83,14 +71,9 @@
      "text": "What do you believe is currently holding the business back most?"
     },
     {
-     "id": "b_stop",
+     "id": "b_stop_start",
      "type": "text",
-     "text": "What is one thing the business should stop doing immediately?"
-    },
-    {
-     "id": "b_start",
-     "type": "text",
-     "text": "What is one thing the business should start doing immediately?"
+     "text": "What is one thing the business should stop doing, and one thing it should start doing?"
     },
     {
      "id": "b_satisfaction",
@@ -107,63 +90,21 @@
    ]
   },
   {
-   "id": "leadership",
-   "title": "About leadership",
+   "id": "leaders",
+   "title": "About your leaders",
    "questions": [
     {
      "id": "l_trust",
      "type": "scale",
-     "text": "I trust the Leadership Team",
+     "text": "Do you trust the leadership team?",
      "options": [
-      "Strongly disagree",
-      "Disagree",
-      "Neutral",
-      "Agree",
-      "Strongly agree"
-     ]
-    },
-    {
-     "id": "l_feedback",
-     "type": "scale",
-     "text": "Feedback in this business is:",
-     "options": [
-      "Clear and helpful",
-      "Inconsistent",
-      "Rare",
-      "Avoided",
-      "Only given when something goes wrong"
-     ]
-    },
-    {
-     "id": "l_expectations",
-     "type": "scale",
-     "text": "I know what is expected of me in my role",
-     "options": [
-      "Very clear",
-      "Mostly clear",
-      "Somewhat clear",
-      "Unclear",
-      "Very unclear"
-     ]
-    },
-    {
-     "id": "l_issues",
-     "type": "scale",
-     "text": "When issues are raised, they are dealt with properly",
-     "options": [
-      "Always",
-      "Often",
-      "Sometimes",
+      "Never",
       "Rarely",
-      "Never"
+      "Sometimes",
+      "Often",
+      "Always"
      ]
-    }
-   ]
-  },
-  {
-   "id": "me",
-   "title": "About your leaders",
-   "questions": [
+    },
     {
      "id": "m_communicates",
      "type": "scale",
@@ -213,9 +154,9 @@
      ]
     },
     {
-     "id": "m_accountable",
+     "id": "l_feedback_clear",
      "type": "scale",
-     "text": "Do your leaders hold people accountable?",
+     "text": "Do your leaders give you clear and helpful feedback, not just when something goes wrong?",
      "options": [
       "Never",
       "Rarely",
@@ -225,25 +166,27 @@
      ]
     },
     {
-     "id": "m_more",
-     "type": "text",
-     "text": "What is one thing your leaders should do more of?"
+     "id": "l_expectations",
+     "type": "scale",
+     "text": "I know what is expected of me in my role",
+     "options": [
+      "Very unclear",
+      "Unclear",
+      "Somewhat clear",
+      "Mostly clear",
+      "Very clear"
+     ]
     },
     {
-     "id": "m_less",
+     "id": "m_more_less",
      "type": "text",
-     "text": "What is one thing your leaders should do less of?"
-    },
-    {
-     "id": "m_change",
-     "type": "text",
-     "text": "What is one thing your leaders could change that would make the biggest positive impact?"
+     "text": "What should your leaders do more of, and what should they do less of?"
     }
    ]
   },
   {
    "id": "growth",
-   "title": "Your growth with Vic Metro",
+   "title": "You and your future here",
    "questions": [
     {
      "id": "g_journey",
@@ -258,9 +201,9 @@
      ]
     },
     {
-     "id": "g_where",
+     "id": "g_aspirations",
      "type": "text",
-     "text": "Where would you like to be in 2 to 3 years? (for example leading hand, foreman, a new ticket, a trade, running your own crew)"
+     "text": "What do you want out of working at Vic Metro, and where would you like to be in 2 to 3 years? (for example leading hand, foreman, a new ticket, running your own crew)"
     },
     {
      "id": "g_support",
@@ -275,9 +218,73 @@
      ]
     },
     {
-     "id": "g_next_step",
+     "id": "g_willing",
      "type": "text",
-     "text": "What would help you take your next step here? (for example a ticket, training, more responsibility, a mentor)"
+     "text": "What are you willing to do to grow here, and what would help you get there?"
+    }
+   ]
+  },
+  {
+   "id": "accountability",
+   "title": "Accountability",
+   "questions": [
+    {
+     "id": "a_me",
+     "type": "scale",
+     "text": "I own my work and my mistakes, and I do what I say I'll do",
+     "options": [
+      "Never",
+      "Rarely",
+      "Sometimes",
+      "Often",
+      "Always"
+     ]
+    },
+    {
+     "id": "a_me_lift",
+     "type": "text",
+     "text": "Where could you lift your own accountability?"
+    },
+    {
+     "id": "a_business",
+     "type": "scale",
+     "text": "Vic Metro does what it says it will do for its people, and owns it when it gets something wrong",
+     "options": [
+      "Never",
+      "Rarely",
+      "Sometimes",
+      "Often",
+      "Always"
+     ]
+    },
+    {
+     "id": "l_issues",
+     "type": "scale",
+     "text": "When issues are raised, they are dealt with properly",
+     "options": [
+      "Never",
+      "Rarely",
+      "Sometimes",
+      "Often",
+      "Always"
+     ]
+    },
+    {
+     "id": "m_accountable",
+     "type": "scale",
+     "text": "Do your leaders hold people accountable?",
+     "options": [
+      "Never",
+      "Rarely",
+      "Sometimes",
+      "Often",
+      "Always"
+     ]
+    },
+    {
+     "id": "a_business_lift",
+     "type": "text",
+     "text": "Where does Vic Metro need to be more accountable to you and the team?"
     }
    ]
   },
