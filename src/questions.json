@@ -1,0 +1,262 @@
+{
+ "_readme": "Edit questions here, then run: python3 build.py. Question ids are stored with each answer, so keep an id when you only reword a question; give a NEW id to a genuinely new question. Numbers are added automatically in order. type: scale (pick one, shown as a row of buttons) | text (written). optional: true = not required.",
+ "survey_version": "2026-10-28.v1",
+ "title": "Team Feedback Survey",
+ "intro": "This takes about 10 minutes. Your answers are confidential and only seen by the Vic Metro leadership team. You can leave your name off if you'd rather stay anonymous. Be honest, that's the whole point.",
+ "name": {
+  "label": "Your name (optional)",
+  "hint": "Leave blank to stay anonymous."
+ },
+ "sections": [
+  {
+   "id": "business",
+   "title": "About the business",
+   "questions": [
+    {
+     "id": "b_direction",
+     "type": "scale",
+     "text": "I understand where the business is heading",
+     "options": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+     ]
+    },
+    {
+     "id": "b_priorities",
+     "type": "scale",
+     "text": "Our priorities are clear week to week",
+     "options": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+     ]
+    },
+    {
+     "id": "b_decisions",
+     "type": "scale",
+     "text": "Decisions in the business are made clearly and quickly",
+     "options": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+     ]
+    },
+    {
+     "id": "b_organised",
+     "type": "scale",
+     "text": "The business is well organised",
+     "options": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+     ]
+    },
+    {
+     "id": "b_workload",
+     "type": "scale",
+     "text": "Workload in the business feels:",
+     "options": [
+      "Very sustainable",
+      "Mostly sustainable",
+      "Manageable short term, risky long term",
+      "Unsustainable",
+      "Completely reactive"
+     ]
+    },
+    {
+     "id": "b_change",
+     "type": "text",
+     "text": "Are you noticing change throughout the business, and how do you feel about it?"
+    },
+    {
+     "id": "b_holding_back",
+     "type": "text",
+     "text": "What do you believe is currently holding the business back most?"
+    },
+    {
+     "id": "b_stop",
+     "type": "text",
+     "text": "What is one thing the business should stop doing immediately?"
+    },
+    {
+     "id": "b_start",
+     "type": "text",
+     "text": "What is one thing the business should start doing immediately?"
+    },
+    {
+     "id": "b_satisfaction",
+     "type": "scale",
+     "text": "How satisfied are you with your experience as an employee in this business?",
+     "options": [
+      "Very dissatisfied",
+      "Dissatisfied",
+      "Neutral",
+      "Satisfied",
+      "Very satisfied"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "leadership",
+   "title": "About leadership",
+   "questions": [
+    {
+     "id": "l_trust",
+     "type": "scale",
+     "text": "I trust the Leadership Team",
+     "options": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+     ]
+    },
+    {
+     "id": "l_feedback",
+     "type": "scale",
+     "text": "Feedback in this business is:",
+     "options": [
+      "Clear and helpful",
+      "Inconsistent",
+      "Rare",
+      "Avoided",
+      "Only given when something goes wrong"
+     ]
+    },
+    {
+     "id": "l_expectations",
+     "type": "scale",
+     "text": "I know what is expected of me in my role",
+     "options": [
+      "Very clear",
+      "Mostly clear",
+      "Somewhat clear",
+      "Unclear",
+      "Very unclear"
+     ]
+    },
+    {
+     "id": "l_issues",
+     "type": "scale",
+     "text": "When issues are raised, they are dealt with properly",
+     "options": [
+      "Always",
+      "Often",
+      "Sometimes",
+      "Rarely",
+      "Never"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "me",
+   "title": "About me as a leader",
+   "questions": [
+    {
+     "id": "m_communicates",
+     "type": "scale",
+     "text": "This leader communicates clearly",
+     "options": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+     ]
+    },
+    {
+     "id": "m_follows_through",
+     "type": "scale",
+     "text": "This leader follows through on what they say",
+     "options": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+     ]
+    },
+    {
+     "id": "m_open",
+     "type": "scale",
+     "text": "This leader is open to feedback",
+     "options": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+     ]
+    },
+    {
+     "id": "m_safety",
+     "type": "scale",
+     "text": "This leader creates psychological safety",
+     "options": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+     ]
+    },
+    {
+     "id": "m_accountable",
+     "type": "scale",
+     "text": "This leader holds people accountable",
+     "options": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+     ]
+    },
+    {
+     "id": "m_more",
+     "type": "text",
+     "text": "One thing this leader should do more of:"
+    },
+    {
+     "id": "m_less",
+     "type": "text",
+     "text": "One thing this leader should do less of:"
+    },
+    {
+     "id": "m_change",
+     "type": "text",
+     "text": "One thing this leader could change that would make the biggest positive impact:"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "title": "Final question",
+   "questions": [
+    {
+     "id": "f_first_fix",
+     "type": "text",
+     "text": "If you were in this leader’s position, what is the first thing you would fix?"
+    },
+    {
+     "id": "f_anything_else",
+     "type": "text",
+     "text": "Anything else you would like to add as part of this survey?",
+     "optional": true
+    }
+   ]
+  }
+ ]
+}

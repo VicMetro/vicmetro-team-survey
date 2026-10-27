@@ -1,0 +1,13 @@
+{
+ "name": "Vic Metro",
+ "accent": "#D83933",
+ "accentHover": "#C73731",
+ "accentPressed": "#99322E",
+ "onAccent": "#FFFFFF",
+ "accent2": "#ffc200",
+ "bg": "#161616",
+ "surface": "#1c1c1c",
+ "stripeDark": "#0d0d0d",
+ "warn": "#ff9466",
+ "logoFrag": "logo-vm.svg.frag"
+}
