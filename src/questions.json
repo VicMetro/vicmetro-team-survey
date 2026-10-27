@@ -162,82 +162,82 @@
   },
   {
    "id": "me",
-   "title": "About me as a leader",
+   "title": "About your leaders",
    "questions": [
     {
      "id": "m_communicates",
      "type": "scale",
-     "text": "This leader communicates clearly",
+     "text": "Do your leaders communicate clearly?",
      "options": [
-      "Strongly disagree",
-      "Disagree",
-      "Neutral",
-      "Agree",
-      "Strongly agree"
+      "Never",
+      "Rarely",
+      "Sometimes",
+      "Often",
+      "Always"
      ]
     },
     {
      "id": "m_follows_through",
      "type": "scale",
-     "text": "This leader follows through on what they say",
+     "text": "Do your leaders follow through on what they say?",
      "options": [
-      "Strongly disagree",
-      "Disagree",
-      "Neutral",
-      "Agree",
-      "Strongly agree"
+      "Never",
+      "Rarely",
+      "Sometimes",
+      "Often",
+      "Always"
      ]
     },
     {
      "id": "m_open",
      "type": "scale",
-     "text": "This leader is open to feedback",
+     "text": "Are your leaders open to feedback?",
      "options": [
-      "Strongly disagree",
-      "Disagree",
-      "Neutral",
-      "Agree",
-      "Strongly agree"
+      "Never",
+      "Rarely",
+      "Sometimes",
+      "Often",
+      "Always"
      ]
     },
     {
      "id": "m_safety",
      "type": "scale",
-     "text": "This leader creates psychological safety",
+     "text": "Do your leaders make it safe to speak up or admit a mistake?",
      "options": [
-      "Strongly disagree",
-      "Disagree",
-      "Neutral",
-      "Agree",
-      "Strongly agree"
+      "Never",
+      "Rarely",
+      "Sometimes",
+      "Often",
+      "Always"
      ]
     },
     {
      "id": "m_accountable",
      "type": "scale",
-     "text": "This leader holds people accountable",
+     "text": "Do your leaders hold people accountable?",
      "options": [
-      "Strongly disagree",
-      "Disagree",
-      "Neutral",
-      "Agree",
-      "Strongly agree"
+      "Never",
+      "Rarely",
+      "Sometimes",
+      "Often",
+      "Always"
      ]
     },
     {
      "id": "m_more",
      "type": "text",
-     "text": "One thing this leader should do more of:"
+     "text": "What is one thing your leaders should do more of?"
     },
     {
      "id": "m_less",
      "type": "text",
-     "text": "One thing this leader should do less of:"
+     "text": "What is one thing your leaders should do less of?"
     },
     {
      "id": "m_change",
      "type": "text",
-     "text": "One thing this leader could change that would make the biggest positive impact:"
+     "text": "What is one thing your leaders could change that would make the biggest positive impact?"
     }
    ]
   },
@@ -248,7 +248,7 @@
     {
      "id": "f_first_fix",
      "type": "text",
-     "text": "If you were in this leader’s position, what is the first thing you would fix?"
+     "text": "If you were in your leaders’ position, what is the first thing you would fix?"
     },
     {
      "id": "f_anything_else",
