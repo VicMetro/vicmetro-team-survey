@@ -242,6 +242,46 @@
    ]
   },
   {
+   "id": "growth",
+   "title": "Your growth with Vic Metro",
+   "questions": [
+    {
+     "id": "g_journey",
+     "type": "scale",
+     "text": "Do you want to come on the journey with Vic Metro and grow with us over the next few years?",
+     "options": [
+      "Yes, definitely",
+      "Probably",
+      "Not sure",
+      "Probably not",
+      "No"
+     ]
+    },
+    {
+     "id": "g_where",
+     "type": "text",
+     "text": "Where would you like to be in 2 to 3 years? (for example leading hand, foreman, a new ticket, a trade, running your own crew)"
+    },
+    {
+     "id": "g_support",
+     "type": "scale",
+     "text": "I'm getting the training and support I need to grow here",
+     "options": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+     ]
+    },
+    {
+     "id": "g_next_step",
+     "type": "text",
+     "text": "What would help you take your next step here? (for example a ticket, training, more responsibility, a mentor)"
+    }
+   ]
+  },
+  {
    "id": "final",
    "title": "Final question",
    "questions": [
