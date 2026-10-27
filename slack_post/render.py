@@ -40,7 +40,7 @@ def scale(q, v):
 
 
 def quote(s):
-    return "\n".join("> " + (ln.strip() or " ") for ln in str(s).strip().splitlines())
+    return "\n".join(("> **" + ln.strip().replace("*", "") + "**") if ln.strip() else ">" for ln in str(s).strip().splitlines())
 
 
 def render(r):
